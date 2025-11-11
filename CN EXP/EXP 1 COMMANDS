@@ -1,0 +1,15 @@
+ping google.com              :: Checks connectivity to a host
+tracert google.com           :: Traces route to a destination
+ipconfig                     :: Displays IP configuration
+ipconfig /all                :: Shows detailed network info
+nslookup google.com          :: Queries DNS for domain IP
+hostname                     :: Displays the computer name
+arp -a                       :: Shows IP-to-MAC address mappings
+netstat -an                  :: Displays active connections and ports
+route print                  :: Displays routing table
+getmac                       :: Shows MAC address of the system
+netsh wlan show profiles     :: Lists all saved Wi-Fi networks
+netsh wlan show profile name="WiFiName" key=clear  :: Shows Wi-Fi password and details
+systeminfo                   :: Displays system network and OS info
+tasklist                     :: Lists all running processes
+taskkill /PID <pid> /F       :: Forcefully ends a process by PID
